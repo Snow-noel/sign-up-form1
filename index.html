@@ -3,55 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>sign-up</title>
 </head>
 <body>
     <main class="main-section">
         <section class="left">
-            <h1>Snowden</h1>
-            photo by snowden msumba
+            <h1 class="h1">Snowden</h1>
+            <p class="para">photo by snowwhite</p>
         </section> 
         <section class="right">
+
             <section class="hero">
-                <p class="para">this is not a real online service! you know you want something 
-                    like this on your life to help you realize your deepest dreams.
-                    sign up to get started. <br><br>
-                    You know you wnat to
-                </p>
+                    <p class="paras">this is not a real online service! you know you want something <br>
+                        like this on your life to help you realize your deepest dreams. <br>
+                        sign up to get started. <br><br>
+                        You know you wnat to
+                    </p>  
             </section>
-            <section>
+            <section class="middle">
                 <form action="#" class="form">
                     <fieldset>
                         <p>lets do this</p>
-                        <div class="firstname">
-                            <label for="firstname">FIRST NAME</label>
-                            <input type="text" name="firstname" id="firstname">
+                        <div class="inputs">
+                            <div class="firstname">
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" name="firstname" id="firstname" required maxlength="8" minlength="5">
+                            </div>
+                            <div class="lastname">
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" name="lastname" id="laststname" required maxlength="8" minlength="5">
+                            </div>
                         </div>
-                        <div class="lastname">
-                            <label for="lastname">LAST NAME</label>
-                            <input type="text" name="lastname" id="laststname">
+                        <div class="inputs">
+                            <div class="email">
+                                <label for="email">FIRST NAME</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="phone">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="number" name="phone" id="phone" required max="10" min="10">
+                            </div>
                         </div>
-                        <div class="email">
-                            <label for="email">FIRST NAME</label>
-                            <input type="email" name="email" id="email">
+                        <div class="inputs">
+                            <div class="password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required minlength="8" maxlength="16">
+                            </div>
+                            <div class="confirm">
+                                <label for="password">CONFIRM PASSWORD</label>
+                                <input type="password" name="password" id="confirm" required minlength="8" maxlength="16">
+                            </div>
                         </div>
-                        <div class="phone">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="number" name="phone" id="phone">
-                        </div>
-                        <div class="password">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                        <div class="confirm">
-                            <label for="password">CONFIRM PASSWORD</label>
-                            <input type="password" name="password" id="confirm">
-                    </fieldset>
-                   
-                    </div>
+                      </fieldset>   
                 </form>
             </section>
-            <seciton class="last">
+            <section class="bottom">
                 <button class="create">Create Account</button>
                 <p>Already have an account? <span class="login"><a href="#">Log in</a></span></p>
             </seciton>
