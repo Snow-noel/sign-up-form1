@@ -11,12 +11,14 @@
 }
 .inputs{
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
     margin-top: 1rem;
 }
 .password, .email, .phone, .firstname, .lastname, .confirm{
     display: flex;
     flex-direction: column;
+    flex: 1;
 
 }
 .right{
@@ -37,12 +39,10 @@
 }
 .hero{
    height: 35vh;
+   width: 100%;
    background-color: bisque;
    margin-top: 0;
-}
-.paras{
-    margin-top: 5rem;
-    background-color: black;
+   padding: 5rem 0.5rem 0.5rem 0.5rem;
 }
 .middle{
     max-height: 30%;
@@ -51,6 +51,7 @@
 .bottom{
     max-height: 35%;
     margin: 0.5rem 5rem 5rem 1rem;
+    flex-wrap: wrap;
 }
 .create{
     width: 9rem;
