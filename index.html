@@ -13,40 +13,36 @@
             <p class="para">photo by snowwhite</p>
         </section> 
         <section class="right">
-
-            <section class="hero">
+         <article class="hero">
                     <p class="paras">this is not a real online service! you know you want something <br>
                         like this on your life to help you realize your deepest dreams. <br>
                         sign up to get started. <br><br>
                         You know you wnat to
                     </p>  
-            </section>
-            <section class="middle">
+            </article>
                 <form action="#" class="form">
-                    <fieldset>
                         <p>lets do this</p>
                         <div class="inputs">
-                            <div class="firstname">
+                            <section class="right-form">
+                                 <div class="firstname">
                                 <label for="firstname">FIRST NAME</label>
                                 <input type="text" name="firstname" id="firstname" required maxlength="8" minlength="5">
                             </div>
-                            <div class="lastname">
-                                <label for="lastname">LAST NAME</label>
-                                <input type="text" name="lastname" id="laststname" required maxlength="8" minlength="5">
+                              <div class="lastname">
+                                    <label for="lastname">LAST NAME</label>
+                                    <input type="text" name="lastname" id="laststname" required maxlength="8" minlength="5">
+                                 </div>
+                             <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
                             </div>
-                        </div>
-                        <div class="inputs">
-                            <div class="email">
-                                <label for="email">FIRST NAME</label>
-                                <input type="email" name="email" id="email">
-                            </div>
+                            </section>
+                           <section class="right-form">  
                             <div class="phone">
                                 <label for="phone">PHONE NUMBER</label>
-                                <input type="number" name="phone" id="phone" required max="10" min="10">
+                                <input type="tel" name="phone" id="phone" maxlength="10" pattern="[0-9]{10}" required>
                             </div>
-                        </div>
-                        <div class="inputs">
-                            <div class="password">
+                             <div class="password">
                                 <label for="password">PASSWORD</label>
                                 <input type="password" name="password" id="password" required minlength="8" maxlength="16">
                             </div>
@@ -54,16 +50,15 @@
                                 <label for="password">CONFIRM PASSWORD</label>
                                 <input type="password" name="password" id="confirm" required minlength="8" maxlength="16">
                             </div>
-                        </div>
-                      </fieldset>   
+                           </section>
+                        </div> 
                 </form>
-            </section>
-            <section class="bottom">
+                <section class="bottom">
                 <button class="create">Create Account</button>
-                <p>Already have an account? <span class="login"><a href="#">Log in</a></span></p>
-            </seciton>
-        </section>
-       
-    </main>
+                <p class="exist">Already have an account? <span class="login"><a href="#">Log in</a></span></p>
+            </section> 
+          </section> 
+      </main>
+     
 </body>
 </html>
