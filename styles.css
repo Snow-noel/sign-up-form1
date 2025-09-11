@@ -64,7 +64,7 @@ form{
     margin-bottom: 1rem;
 }
 .left{
-    background:url(/pics/greenleaf.avif)center/cover no-repeat;
+    background:url(./pics/greenleaf.avif)center/cover no-repeat;
     color: white;
 }
 .bottom{
